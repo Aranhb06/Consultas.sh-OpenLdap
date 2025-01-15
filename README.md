@@ -47,3 +47,29 @@
    - Administrator password: `admin`
 
 5. Enjoy the query in tree form! 🎉
+
+---
+
+# Étapes pour exécuter la requête
+
+1. **Téléchargez le fichier.**
+2. Accordez les permissions au script :
+
+   ```bash
+   sudo chmod +x Consulta.sh
+   ```
+
+3. Exécutez le script :
+
+   ```bash
+   ./Consulta.sh
+   ```
+
+4. Fournissez les données demandées, par exemple :
+
+   - Langue : '2 [English]'
+   - Nom et détails de l'administrateur : `cn=admin,dc=info,dc=com`
+   - Détails du domaine : `dc=info,dc=com`
+   - Mot de passe de l'administrateur : `admin`
+
+5. Profitez de la requête sous forme d'arbre ! 🎉
