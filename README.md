@@ -67,7 +67,7 @@
 
 4. Fournissez les données demandées, par exemple :
 
-   - Langue : '2 [English]'
+   - Langue : '3 [Français]'
    - Nom et détails de l'administrateur : `cn=admin,dc=info,dc=com`
    - Détails du domaine : `dc=info,dc=com`
    - Mot de passe de l'administrateur : `admin`
