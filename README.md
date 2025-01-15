@@ -15,7 +15,7 @@
 
 4. Proporciona los datos solicitados, por ejemplo:
 
-   - Idioma: '1 [Español]'
+   - Idioma: `1 [Español]`
    - Nombre y datos del administrador: `cn=admin,dc=info,dc=com`
    - Datos del dominio: `dc=info,dc=com`
    - Clave del administrador: `admin`
@@ -41,7 +41,7 @@
 
 4. Provide the requested data, for example:
 
-   - Languaje: '2 [English]'
+   - Languaje: `2 [English]`
    - Administrator name and details: `cn=admin,dc=info,dc=com`
    - Domain details: `dc=info,dc=com`
    - Administrator password: `admin`
@@ -67,7 +67,7 @@
 
 4. Fournissez les données demandées, par exemple :
 
-   - Langue : '3 [Français]'
+   - Langue : `3 [Français]`
    - Nom et détails de l'administrateur : `cn=admin,dc=info,dc=com`
    - Détails du domaine : `dc=info,dc=com`
    - Mot de passe de l'administrateur : `admin`
