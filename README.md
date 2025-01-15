@@ -15,11 +15,12 @@
 
 4. Proporciona los datos solicitados, por ejemplo:
 
+   - Idioma: '1 [Español]'
    - Nombre y datos del administrador: `cn=admin,dc=info,dc=com`
    - Datos del dominio: `dc=info,dc=com`
    - Clave del administrador: `admin`
 
-5. ¡Disfruta de la consulta en forma de árbol! 🎉
+6. ¡Disfruta de la consulta en forma de árbol! 🎉
 
 ---
 
@@ -40,6 +41,7 @@
 
 4. Provide the requested data, for example:
 
+   - Languaje: '2 [English]'
    - Administrator name and details: `cn=admin,dc=info,dc=com`
    - Domain details: `dc=info,dc=com`
    - Administrator password: `admin`
