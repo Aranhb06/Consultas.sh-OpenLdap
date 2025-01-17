@@ -23,6 +23,7 @@ MSG[es,empty_admin_dn]="El DN de administrador no puede estar vacío"
 MSG[es,empty_base_dn]="El DN base no puede estar vacío"
 MSG[es,empty_password]="La contraseña no puede estar vacía"
 MSG[es,ldapsearch_missing]="ldapsearch no está instalado. Por favor, instale ldap-utils"
+MSG[es,final_message]="Pulsa [Enter] para cerrar el programa: "
 
 # English messages
 MSG[en,title]="Local LDAP Directory Query"
@@ -44,6 +45,7 @@ MSG[en,empty_admin_dn]="Admin DN cannot be empty"
 MSG[en,empty_base_dn]="Base DN cannot be empty"
 MSG[en,empty_password]="Password cannot be empty"
 MSG[en,ldapsearch_missing]="ldapsearch is not installed. Please install ldap-utils"
+MSG[en,final_message]="Press [Enter] to close the program: "
 
 # French messages
 MSG[fr,title]="Requête d'Annuaire LDAP Local"
@@ -65,6 +67,7 @@ MSG[fr,empty_admin_dn]="Le DN administrateur ne peut pas être vide"
 MSG[fr,empty_base_dn]="Le DN de base ne peut pas être vide"
 MSG[fr,empty_password]="Le mot de passe ne peut pas être vide"
 MSG[fr,ldapsearch_missing]="ldapsearch n'est pas installé. Veuillez installer ldap-utils"
+MSG[fr,final_message]="Appuyez sur [Entrée] pour fermer le programme: "
 
 # Function to show error messages
 mostrar_error() {
@@ -181,3 +184,6 @@ done < <(grep "^dn:" "$temp_file")
 
 # Clean up temporary file
 rm -f "$temp_file"
+
+echo ""
+read -p "${MSG[$LANG_CODE,final_message]}"
